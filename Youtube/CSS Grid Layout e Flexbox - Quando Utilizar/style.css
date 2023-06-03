@@ -1,0 +1,42 @@
+body,
+ul,
+li,
+p {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1.25rem;
+  background-color: #1d1d1d;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 0.625rem;
+}
+
+.menu li a {
+    display: block;
+    padding: 0.625rem;
+}
